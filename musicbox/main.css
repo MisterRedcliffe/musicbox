@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    background-color: #000000;
+    color: #e8e8e8;
+}
+
+.app {
+    height: 100vh;
+    margin: 25px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+header h1 {
+    margin: 50px 0 30px 0;
+    font-size: 45px;
+}
+
+header h2 {
+    text-transform: capitalize;
+    font-size: 25px;
+}
+
+.pads {
+    width: 100%;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    margin: 275px;
+}
+
+.pads>div {
+    height: 100px;
+    width: 100px;
+    border-style: solid;
+}
+
+.pad1 {
+    background-color: #3e181b;
+    border-color: #db1d2d;
+}
+
+.pad2 {
+    background-color: #422018;
+    border: #f0421c;
+}
+
+.pad3 {
+    background-color: #45391b;
+    border: #fec02d;
+}
+
+.pad4 {
+    background-color: #193c29;
+    border: #20d071;
+}
+
+.pad5 {
+    background-color: #18323e;
+    border: #1a9ddb;
+}
+
+.pad6 {
+    background-color: #331f35;
+    border: #a13fad;
+}
+
+.pad7 {
+    background-color: #43293d;
+    border: #f26fd4;
+}
+
+.pad1:active {
+    background-color: #661920;
+}
+
+.pad2:active {
+    background-color: #6e2819;
+}
+
+.pad3:active {
+    background-color: #735b20;
+}
+
+.pad4:active {
+    background-color: #1b613b;
+}
+
+.pad5:active {
+    background-color: #184d65;
+}
+
+.pad6:active {
+    background-color: #4e2753;
+}
+
+.pad7:active {
+    background-color: #6f3a62;
+}
